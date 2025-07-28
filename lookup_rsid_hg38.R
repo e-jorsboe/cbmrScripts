@@ -1,6 +1,6 @@
-library(data.talbe)
+library(data.table)
 
-args <- commandsArgs(trailingOnly=TRUE)
+args <- commandArgs(trailingOnly=TRUE)
 inputname<-args[1]
 idcolumn<-args[2]
 mapname<-args[3]
